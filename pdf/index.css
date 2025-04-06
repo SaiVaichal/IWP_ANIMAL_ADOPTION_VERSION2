@@ -1,0 +1,89 @@
+.img{
+    display: flex;
+    flex-direction: row;
+    width:120px;
+}
+body {
+    background-image: url('boydog.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    /* Adjust the position as needed */
+    background-attachment: fixed; /* Keeps the background fixed within the viewport */
+}
+.oct{
+    background-color: #8CB9BD;
+    margin-top: 40px;
+    height:600px;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.conl{
+background-color:  #ECB159;
+width:400px;
+height:65px;
+border: 1px solid #FEFBF6;
+}
+.div1{
+    background-color: #FEFBF6;
+   height:45px;
+    width:400px;
+    padding:4px;
+    border: 1px solid #FEFBF6;
+    display: none;
+}
+.div2{
+    background-color: #FEFBF6;
+   height:155px;
+    width:400px;
+    padding:4px;
+    border: 1px solid #FEFBF6;
+    display: none;
+}
+.div3{
+    background-color: #FEFBF6;
+   height:110px;
+    width:400px;
+    padding:4px;
+    border: 1px solid #FEFBF6;
+    display: none;
+}
+.div4{
+    background-color: #FEFBF6;
+   height:142px;
+    width:400px;
+    padding:4px;
+    border: 1px solid #FEFBF6;
+    display: none;
+}
+.div5{
+    background-color: #FEFBF6;
+   height:75px;
+    width:400px;
+    padding:4px;
+    border: 1px solid #FEFBF6;
+    display: none;
+}
+.boy{
+    width:1000px ;
+    height: 400px;
+    background-color: rgb(254, 251, 246,0.2);
+    text-align: center;
+ 
+
+}
+.boy1{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.foot{
+background-color: #B67352;
+height:300px;
+
+}
+

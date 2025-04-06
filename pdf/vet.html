@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<style>
+    body{
+        background-color: #ECB159;
+    }
+   
+.img{
+    display: flex;
+    flex-direction: row;
+    width:120px;
+}
+.carousel1 {
+      width: 350px; /* Set width to 400px */
+      height: 270px; /* Set height to 400px */
+      overflow: hidden;
+      position: relative;
+    }
+
+    .carousel2 {
+      width: 350px; /* Set width to 400px */
+      height: 270px; /* Set height to 400px */
+      overflow: hidden;
+      position: relative;
+    }
+    .carousel3 {
+      width: 350px; /* Set width to 400px */
+      height: 270px; /* Set height to 400px */
+      overflow: hidden;
+      position: relative;
+    }
+    
+    
+    /* Style for carousel slides */
+    .carousel-inner {
+      width: 100%; /* Ensure the slides take up the full width */
+      height: 100%; /* Ensure the slides take up the full height */
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    
+    /* Style for individual slide */
+    .carousel-item {
+      width: 100%;
+      height: 100%;
+      flex: 0 0 auto;
+    }
+    
+    /* Style for navigation buttons */
+    .carousel-control {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      z-index: 1;
+    }
+    
+    .carousel-prev {
+      left: 0;
+    }
+    
+    .carousel-next {
+      right: 0;
+    }
+
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid" style="background-color: #FEFBF6;z-index:999;height: 100px;position: fixed;margin-top: 70px;">
+          
+<div class="img">
+          <img src="catdog.png" height="60px">
+          <p style="font-size: 35px;font-family: cursive;">Petmate</p>
+        </div>
+     
+         
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="margin-left: 100px;">Home</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="res.php" style="margin-left: 100px;">Adopt Application</a>
+              </li>
+             
+
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html" style="margin-left: 100px;">About us</a>
+              </li>
+             
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="vet.html" style="margin-left: 100px;">Vets near us</a>
+              </li>
+             
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="blog.html" style="margin-left: 100px;">Animal Blogs</a>
+              </li>
+            
+          </div>
+        </div>
+      </nav>
+<div style="border:7px solid #8CB9BD;border-radius: 4px;margin:30px;margin-top: 100px;background-color: #FEFBF6; ">
+    <div style="background-color: #8CB9BD;color: #FEFBF6;font-family: cursive;font-size:20px;text-align: center;"><h3>LITTLE PAWS VETERINARY CLINIC</h3></div>
+    <div style="display: flex;flex-direction: row;justify-content: space-evenly;">
+      <div style="margin-top:20px;margin-left: 30px;">
+
+      <div class="carousel1" id="myCarousel1">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="v11.jpeg" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="v12.jpeg" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="v13.jpeg" alt="Slide 3">
+          </div>
+        </div>
+        <button class="carousel-control carousel-prev" onclick="prevSlide('myCarousel1')">&#10094;</button>
+        <button class="carousel-control carousel-next" onclick="nextSlide('myCarousel1')">&#10095;</button>
+      </div>
+    </div>
+  <div class="time" style="color:#B67352;font-size: 20px;margin-top: 30px;">
+    <h5> Working Hours:</h5>
+    <p>Mon-Sat: 9:30am - 8pm</p>
+    <p>Sun: 9:30am - 12:30pm</p>
+
+<br>
+<p style="color:#1e77e3;font-weight: bold;font-size: 25px;">Contact : 98445 48311</p>
+  </div>
+
+  <div class="spec" style="background-color: #ECB159;border:7px solid 
+  #8CB9BD;border-radius: 6px;color:white;width:400px;margin:20px;padding:15px;">
+    Speciality:
+    Major and Corrective Surgeries, Consultation, General Checkups, Vaccinations, ECG, Puppy Care, Dermatology, Complete Health Care, Immunization, Veterinary Treatments, Dentistry, Surgeries & Pet Grooming
+  </div>
+</div>
+  
+</div>
+
+
+
+<div style="border:7px solid #8CB9BD;border-radius: 4px;margin:30px;margin-top: 50px;background-color: #FEFBF6; ">
+    <div style="background-color: #8CB9BD;color: #FEFBF6;font-family: cursive;font-size:20px;text-align: center;"><h3>GOVERNMENT VETERINARY POLYCLINIC</h3></div>
+    <div style="display: flex;flex-direction: row;justify-content: space-evenly;">
+      <div style="margin-top:20px;margin-left: 30px;">
+
+      <div class="carousel2" id="myCarousel2">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="v21.jpeg" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="v22.jpeg" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="v23.jpeg" alt="Slide 3">
+          </div>
+        </div>
+        <button class="carousel-control carousel-prev" onclick="prevSlide('myCarousel2')">&#10094;</button>
+        <button class="carousel-control carousel-next" onclick="nextSlide('myCarousel2')">&#10095;</button>
+      </div>
+    </div>
+  <div class="time" style="color:#B67352;font-size: 20px;margin-top: 30px;">
+    <h5> Working Hours:</h5>
+    <p>Mon-Sat: 9am - 1pm |2pm - 4pm</p>
+    <p>Sun: 9am - 1pm</p>
+
+<br>
+<p style="color:#1e77e3;font-weight: bold;font-size: 25px;">Contact : 94481 77627</p>
+  </div>
+
+  <div class="spec" style="background-color: #ECB159;border:7px solid 
+  #8CB9BD;border-radius: 6px;color:white;width:400px;margin:20px;padding:15px;">
+    Speciality:
+    General Checkups, Laser Therapy, Vaccinations, De-Worming, Blood Tests, ECG, Puppy Care, Dermatology, Ultrasound, Dental Checkups, Neutering, Spaying, Consultations, Complete Health Care, Immunization, X-Ray & Soft Tissue Surgery
+  </div>
+</div>
+  
+</div>
+
+
+
+
+<div style="border:7px solid #8CB9BD;border-radius: 4px;margin:30px;margin-top: 50px;background-color: #FEFBF6; ">
+    <div style="background-color: #8CB9BD;color: #FEFBF6;font-family: cursive;font-size:20px;text-align: center;"><h3>VANASUMA VETERINARY CLINIC</h3></div>
+    <div style="display: flex;flex-direction: row;justify-content: space-evenly;">
+      <div style="margin-top:20px;margin-left: 30px;">
+
+      <div class="carousel3" id="myCarousel3">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="v31.jpeg" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="v32.jpeg" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="v33.jpeg" alt="Slide 3">
+          </div>
+        </div>
+        <button class="carousel-control carousel-prev" onclick="prevSlide('myCarousel3')">&#10094;</button>
+        <button class="carousel-control carousel-next" onclick="nextSlide('myCarousel3')">&#10095;</button>
+      </div>
+    </div>
+  <div class="time" style="color:#B67352;font-size: 20px;margin-top: 30px;">
+    <h5> Working Hours:</h5>
+    <p>Mon-Sat: 9am - 129m| 4pm - 7pm</p>
+Sun: Closed</p>
+<br>
+<p style="color:#1e77e3;font-weight: bold;font-size: 25px;">Contact : 93433 45603</p>
+  </div>
+
+  <div class="spec" style="background-color: #ECB159;border:7px solid 
+  #8CB9BD;border-radius: 6px;color:white;width:400px;margin:20px;padding:15px;">
+    Speciality:
+    Consultations, Laser Therapy, Vaccinations, Spaying, Neutering, De-Worming, Pet Grooming, Blood Tests, ECG, Puppy Care, Dermatology, General Checkups, Complete Health Care, Immunization & Dental Checkups
+  </div>
+</div>
+  
+</div>
+
+      <script>
+       function prevSlide(id) {
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('#' + id + ' .carousel-item');
+        const totalSlides = slides.length;
+        
+        slides.forEach((slide, i) => {
+          if (slide.classList.contains('active')) {
+            currentIndex = i;
+          }
+        });
+        
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        showSlide(id, currentIndex);
+      }
+      
+      function nextSlide(id) {
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('#' + id + ' .carousel-item');
+        const totalSlides = slides.length;
+        
+        slides.forEach((slide, i) => {
+          if (slide.classList.contains('active')) {
+            currentIndex = i;
+          }
+        });
+        
+        currentIndex = (currentIndex + 1) % totalSlides;
+        showSlide(id, currentIndex);
+      }
+      
+      function showSlide(id, index) {
+        const slides = document.querySelectorAll('#' + id + ' .carousel-item');
+        
+        slides.forEach((slide, i) => {
+          if (i === index) {
+            slide.classList.add('active');
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+      }
+      </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+.photo{
+    height: 550px;
+margin-top: 85px;
+    background-image:linear-gradient(to right, rgba(0,0,0,0.5),rgba(255,255,255,0)), url("god2.jpg");
+    
+    font-family:cursive;
+    background-repeat:no-repeat;
+    background-size:cover;
+   
+
+   }
+   .img{
+    display: flex;
+    flex-direction: row;
+    width:120px;
+}
+body{
+    background-color:#FEFBF6;
+
+}
+.container {
+    position: relative;
+    width: 320px;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color:#FEFBF6 ;
+    border:7px solid #8CB9BD;
+    border-radius: 10PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    
+
+}
+
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-image:url('dog2.jpg');
+    background-size:370px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.box2 {
+    width: 250px;
+    height: 250px;
+    background-image:url('dog3.jpg');
+    background-size:370px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 177, 89,0.7);
+    transition: left 0.5s;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+
+.box2:hover .overlay2 {
+    left: 0;
+}
+
+.box3 {
+    width: 250px;
+    height: 250px;
+    background-image:url('dog4.jpg');
+    background-size:370px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.overlay3 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 177, 89,0.7);
+    transition: left 0.5s;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+
+.box3:hover .overlay3 {
+    left: 0;
+}
+
+
+
+.box4 {
+    width: 250px;
+    height: 250px;
+    background-image:url('dog5.jpg');
+    background-size:370px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.overlay4 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 177, 89,0.7);
+    transition: left 0.5s;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay4 a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+
+.box4:hover .overlay4 {
+    left: 0;
+}
+
+
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 177, 89,0.7);
+    transition: left 0.5s;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+
+.box1:hover .overlay1 {
+    left: 0;
+}
+.hh{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+
+.box5 {
+    width: 250px;
+    height: 250px;
+    background-image:url('dog6.jpg');
+    background-size:370px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.overlay5 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 177, 89,0.7);
+    transition: left 0.5s;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay5 a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+
+.box5:hover .overlay5 {
+    left: 0;
+}
+
+
+.box6{
+    width: 250px;
+    height: 250px;
+    background-image:url('dpgg.jpg');
+    background-size:370px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.overlay6 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 177, 89,0.7);
+    transition: left 0.5s;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay6 a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+
+.box6:hover .overlay6 {
+    left: 0;
+}
+.foot{
+    background-color: #B67352;
+    height:300px;
+    
+    }
